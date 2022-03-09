@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(65, 65, 65);
+  width: 1000px;
+  margin: auto;
+}
+
+#welcome {
+  background-image: url(assets/pexels-george-desipris-843085.jpg);
+  width: 1000px;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+h1 {
+  color: salmon;
+  padding: 30px 30px;
+  font-size: 40px;
+  text-shadow: darkslategray 3px 2px 5px;
+  font-weight: normal;
+}
+
+h2 {
+  text-decoration: underline;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero {
+  width: 200px;
+  text-align: center;
+}
+table {
+  margin: auto;
+}
+table,
+th,
+td {
+  border: 1px solid #333;
+}
+
+th,
+td {
+  width: 150px;
+  height: 40px;
+}
+
+#contact {
+  width: 300px;
+  margin: auto;
+  border: solid #333 1px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(250, 128, 114, 0.2);
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+#menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#menu {
+  background-color: salmon;
+}
+
+#menu ul li {
+  text-decoration: none;
+  color: rgba(65, 65, 65, 0.8);
+  list-style-type: none;
+  padding: 20px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+}
+
+a:hover {
+  text-decoration: underline;
+}
